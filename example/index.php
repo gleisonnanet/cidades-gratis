@@ -2,7 +2,7 @@
 
 require_once '../vendor/autoload.php';
 
-use JansenFelipe\CidadesGratis\Cidades;
+use gleisonnanet\CidadesGratis\Cidades;
 
 /*
  * Carregando UF's

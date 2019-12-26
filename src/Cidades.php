@@ -1,6 +1,6 @@
 <?php
 
-namespace JansenFelipe\CidadesGratis;
+namespace gleisonnanet\CidadesGratis;
 
 use Exception;
 use Goutte\Client;

@@ -1,22 +1,22 @@
 {
-    "name": "jansenfelipe/cidades-gratis",
+    "name": "gleisonnanet/cidades-gratis",
     "description": "Com esse pacote você poderá consultar, gratuitamente, Cidades diretamente no site do IBGE.",
     "keywords": ["cidades", "estados", "ibge", "php"],
     "license": "MIT",
     "authors": [
         {
-            "name": "Jansen Felipe",
-            "email": "jansen.felipe@gmail.com"
+            "name": "Gleison de souza luiz",
+            "email": "gleisonnanet@gmail.com"
         }
     ],
     "require": {
-        "php": ">=5.4.0",
+        "php": ">=7.0.0",
         "ext-curl":"*",
         "fabpot/goutte": "2.0.*@dev"
     },
     "autoload": {
         "psr-4": {
-            "JansenFelipe\\CidadesGratis\\": "src/"
+            "gleisonnanet\\CidadesGratis\\": "src/"
         }
     },
     "extra": {
@@ -25,10 +25,10 @@
         }
     },
      "suggest": {
-        "jansenfelipe/cnpj-gratis": "Permite consulta de CNPJ no site da receita",
-        "jansenfelipe/cpf-gratis": "Permite consulta de CPF no site da receita",
-        "jansenfelipe/cep-gratis": "Permite consulta de CEP no site dos Correios",
-        "jansenfelipe/nfephp-serialize": "Transforme NFe(xml) em objetos PHP e vice-versa"
+        "gleisonnanet/cnpj-gratis": "Permite consulta de CNPJ no site da receita",
+        "gleisonnanet/cpf-gratis": "Permite consulta de CPF no site da receita",
+        "gleisonnanet/cep-gratis": "Permite consulta de CEP no site dos Correios",
+        "gleisonnanet/nfephp-serialize": "Transforme NFe(xml) em objetos PHP e vice-versa"
     },
     "minimum-stability": "dev"
 }
