@@ -10,9 +10,10 @@
         }
     ],
     "require": {
-        "php": ">=7.0.0",
+        "php": "^7.0",
         "ext-curl":"*",
-        "fabpot/goutte": "2.0.*@dev"
+        "fabpot/goutte": "2.0.*@dev",
+        "prefer-stable": true
     },
     "autoload": {
         "psr-4": {
