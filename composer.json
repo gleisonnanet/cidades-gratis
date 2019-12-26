@@ -12,8 +12,8 @@
     "require": {
         "php": "^7.0",
         "ext-curl":"*",
-        "fabpot/goutte": "^4.0",
-        "prefer-stable": "true"
+        "fabpot/goutte": "^4.0"
+      
     },
     "autoload": {
         "psr-4": {
@@ -31,5 +31,5 @@
         "gleisonnanet/cep-gratis": "Permite consulta de CEP no site dos Correios",
         "gleisonnanet/nfephp-serialize": "Transforme NFe(xml) em objetos PHP e vice-versa"
     },
-    "minimum-stability": "dev"
+    "minimum-stability": "stable"
 }
