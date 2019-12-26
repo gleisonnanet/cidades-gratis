@@ -13,7 +13,7 @@
         "php": "^7.0",
         "ext-curl":"*",
         "fabpot/goutte": "^4.0",
-        "prefer-stable": true
+        "prefer-stable": "true"
     },
     "autoload": {
         "psr-4": {
